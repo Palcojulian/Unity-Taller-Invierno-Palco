@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 484859617}
   - component: {fileID: 484859616}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Car_Exhaust_Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -226,12 +226,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484859615}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.25323617, y: 0.18990745, z: -0.6598166, w: 0.6815047}
-  m_LocalPosition: {x: 545, y: 2.5, z: 526.8}
-  m_LocalScale: {x: 4.7222457, y: 4.7222457, z: 4.7222457}
+  m_LocalRotation: {x: -0.035166338, y: -0.03176731, z: -0.7058682, w: 0.70675623}
+  m_LocalPosition: {x: 1.89298, y: 0.2895275, z: 0.6394621}
+  m_LocalScale: {x: 0.11115611, y: 0.11115611, z: 0.11115612}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1946951598}
   m_LocalEulerAnglesHint: {x: -5.426, y: 36.562, z: -89.941}
 --- !u!1 &516679408
 GameObject:
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 516679410}
   - component: {fileID: 516679409}
   m_Layer: 0
-  m_Name: Terrain
+  m_Name: Snow_Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -403,25 +403,56 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3dcd1d92cb0793553a1f737ad3d3208a, type: 2}
+    - target: {fileID: -3001236210990299473, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
+      propertyPath: m_Name
+      value: Car_Wheel_Front_Left
+      objectReference: {fileID: 0}
+    - target: {fileID: -861636485317204376, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
+      propertyPath: m_Name
+      value: Car_Siren
+      objectReference: {fileID: 0}
     - target: {fileID: -106538344727069399, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3dcd1d92cb0793553a1f737ad3d3208a, type: 2}
     - target: {fileID: 919132149155446097, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
       propertyPath: m_Name
-      value: PoliceCar
+      value: Police_Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248315966753030199, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
+      propertyPath: m_Name
+      value: Car_Wheel_Front_Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755373320713879989, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
+      propertyPath: m_Name
+      value: Car_Mesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256403187439209023, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
+      propertyPath: m_Name
+      value: Car_Wheel_Back_Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801197343454132026, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
+      propertyPath: m_Name
+      value: Car_Mirrors
       objectReference: {fileID: 0}
     - target: {fileID: 4919986609511262940, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3dcd1d92cb0793553a1f737ad3d3208a, type: 2}
+    - target: {fileID: 7570296657202214451, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
+      propertyPath: m_Name
+      value: Car_Wheel_Back_Right
+      objectReference: {fileID: 0}
     - target: {fileID: 8810728595343950689, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3dcd1d92cb0793553a1f737ad3d3208a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 484859619}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
 --- !u!1 &1491687640
@@ -436,7 +467,7 @@ GameObject:
   - component: {fileID: 1491687641}
   - component: {fileID: 1491687643}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: Moon_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -551,6 +582,11 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!4 &1946951598 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a2b94806a8cb4c14abd4e8556f6195b6, type: 3}
+  m_PrefabInstance: {fileID: 626411009}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2133600221
 GameObject:
   m_ObjectHideFlags: 0
@@ -696,4 +732,3 @@ SceneRoots:
   - {fileID: 1491687642}
   - {fileID: 516679411}
   - {fileID: 626411009}
-  - {fileID: 484859619}
